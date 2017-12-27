@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
   <head>
-  	<title>Olwen Wilson - Personal Website</title>
+  	<title>Olwen Wilson</title>
   	<link rel="stylesheet" type="text/css" href="bootstrap">
   	<link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
@@ -33,6 +33,35 @@
   	</header>
     <h1>Olwen Wilson</h1>
     <p> This is the paragraph</p>
+
+    <nav class="navbar navbar-inverse navbar-fixed-bottom navbar-light">
+	<div class="navbarBottom">
+		<center>
+  		<a href="http://www.twitter.com/" class="fa fa-twitter" aria-hidden="true"></a>
+ 		 <a href="http://www.facebook.com/" class="fa fa-facebook" aria-hidden="true"></i></a>
+ 		 <a href="http://www.instagram.com/" class="fa fa-instagram" aria-hidden="true"></i></a>
+ 		 </center>
+ 	</div>
+</nav>
+
+
+<script type="text/JavaScript">
+	function random_4 () {
+		var myrandom=Math.round (Math.random () *2)
+		var link1="./destinations_newyork.html"
+		var link2="./destinations_berlin.html"
+		var link3="./destinations_havana.html"
+		var link4="./destinations_antigua.html"
+		if (myrandom==0)
+			window.location=link1
+		else if (myrandom==1)
+			window.location=link2
+		else if (myrandom==2)
+			window.location=link3
+		else if (myrandom==3)
+			window.location=link4
+	}
+</script>
     
     </body>
   </html>
