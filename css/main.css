@@ -1,0 +1,68 @@
+.navbar-header {
+	background-color: black;
+	color: white;
+}
+
+.navbar-light {
+	background-color: transparent;
+	color: white;
+	align-content: center;
+	border: transparent;
+	font-size: 50px; 
+}
+.lonesome {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+}
+
+.bg {
+	width: 100%;
+	z-index: 0;
+	background-size: cover;
+}
+
+.mainHeader{
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	size: 140px;
+	width: 100%;
+	position: absolute;
+	padding-top: 200px;
+	top: 10px;
+	letter-spacing: 0.3em;
+	font-family: sans-serif;
+}
+
+.txtNew {
+	font-family: 18px/1.1em sans-serif;
+	color: rgb(75 79 79);
+	text-align: center;
+}
+
+
+.btn {
+	background-color: black;
+	color: white;
+	margin-bottom: 100px;
+
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+  size: 40px;
+
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #55ACEE;
+  size: 40px;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: #125688;
+  size: 40px;
+}
