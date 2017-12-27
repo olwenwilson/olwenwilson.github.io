@@ -1,11 +1,9 @@
 .navbar-header {
-	background-color: black;
-	color: white;
+	background-color: white;
 }
 
 .navbar-light {
 	background-color: transparent;
-	color: white;
 	align-content: center;
 	border: transparent;
 	font-size: 50px; 
@@ -13,7 +11,7 @@
 .lonesome {
 	width: 200px;
 	position: absolute;
-	top: 0px;
+	top: 10px;
 }
 
 .bg {
@@ -24,7 +22,7 @@
 
 .mainHeader{
 	text-align: center;
-	color: rgba(255, 255, 255, 1);
+	color: rgba(48, 125, 148, 1);
 	size: 140px;
 	width: 100%;
 	position: absolute;
@@ -36,7 +34,7 @@
 
 .txtNew {
 	font-family: 18px/1.1em sans-serif;
-	color: rgb(75 79 79);
+	color: rgb(48,125,148);
 	text-align: center;
 }
 
