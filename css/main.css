@@ -8,7 +8,24 @@
 	border: transparent;
 	font-size: 50px; 
 }
-.lonesome {
+
+.verticalmenu
+	{
+		width: 60px;
+		height:	500px;
+		background: transparent;
+		position: relative;
+		vertical-align: center;
+		align-content: right;
+
+	}
+
+.verticalmenu a:hover {
+	background-color: pink;
+}
+
+
+.logo {
 	width: 200px;
 	position: absolute;
 	top: 10px;
